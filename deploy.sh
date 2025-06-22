@@ -9,7 +9,7 @@ IMAGE_TAG="latest"
 REGISTRY_URL="atuljkamble"
 
 echo "Logging into Docker..."
-echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+echo "$DOCKER_PASSWORD" | docker login -u "$ravitripathi09" --password-stdin
 
 echo "Cleaning up Docker cache..."
 docker image prune -af || true
